@@ -1,0 +1,49 @@
+@font-face {
+
+    font-family: Nova;
+    src: url(./font/proxima-nova.otf);
+}
+@font-face {
+
+    font-family: NovaBold;
+    src: url(./font/proxima-nova-bold.otf);
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.no-apachurrado{
+    padding-left: 0;
+    transition: all .2s ease;
+}
+
+.apachurrado{
+    padding-left: 256px;
+    transition: all 1s ease;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi|Catamaran|Happy+Monkey|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Mallanna|Nunito+Sans');
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
